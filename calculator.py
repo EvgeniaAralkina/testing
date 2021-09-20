@@ -43,7 +43,7 @@ while (1):
     print('1 - fast mul\n2 - fast pow\n3 - fast square root\n')
     x = int(input('   ->'))
     a = int(input('a = '))
-    b = int(input('(степень корня) b = '))
+    b = int(input('(второй множитель/степнь/степень корня) b = '))
     if x == 1:
         print('a * b = ',fast_mul(a,b))
     elif x == 2:
